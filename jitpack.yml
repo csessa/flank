@@ -1,0 +1,4 @@
+jdk:
+  - openjdk8
+install:
+   - cloud_testing/kotlin_poc/gradlew -p cloud_testing/kotlin_poc/ clean fatJar
